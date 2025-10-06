@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@layer utilities{
+    .primary-bg{
+        background: #13131310;
+    }
+    .text-color{
+        color: #131313;
+    }
+}
