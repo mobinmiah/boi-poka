@@ -1,13 +1,15 @@
 import React from "react";
 
 const NavBar = () => {
-    const links = (
-      <>
-        <li className="mr-4">Home</li>
-        <li className="mr-4">Listed Books</li>
-        <li>Pages to Read</li>
-      </>
-    );
+  const links = (
+    <div className="flex items-center gap-3.5">
+      <li className="cursor-pointer text-[#23BE0A] border border-[#23BE0A] rounded-[4px] px-5 py-2">
+        Home
+      </li>
+      <li className="cursor-pointer">Listed Books</li>
+      <li className="cursor-pointer">Pages to Read</li>
+    </div>
+  );
   return (
     <div className="navbar bg-base-100 shadow-sm">
       <div className="navbar-start">
@@ -42,8 +44,12 @@ const NavBar = () => {
         <ul className="menu menu-horizontal px-1">{links}</ul>
       </div>
       <div className="navbar-end gap-4">
-        <a className="btn">Sign In</a>
-        <a className="btn">Sign Up</a>
+        <button className="btn bg-[#23BE0A] text-white font-semibold text-[18px] rounded-[8px] p-5">
+          Sign In
+        </button>
+        <button className="btn bg-[#59C6D2] text-white font-semibold text-[18px] rounded-[8px] p-5">
+          Sign Up
+        </button>
       </div>
     </div>
   );

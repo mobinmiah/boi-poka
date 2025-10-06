@@ -1,5 +1,5 @@
 import React from "react";
-import { FaRegStar } from "react-icons/fa6";
+import { FaRegStarHalfStroke } from "react-icons/fa6";
 
 
 const Book = ({ book }) => {
@@ -25,7 +25,7 @@ const Book = ({ book }) => {
         <div className="flex justify-between items-center pt-5 border-t border-dashed border-gray-300">
           <p className="font-medium text-[#13131390]">{category}</p>
           <p className="font-medium text-[#13131390] flex items-center gap-2">
-            <span>{rating}</span> <FaRegStar />
+            <span>{rating}</span> <FaRegStarHalfStroke />
           </p>
         </div>
       </div>
