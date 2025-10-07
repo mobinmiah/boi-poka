@@ -7,4 +7,9 @@
     .text-color{
         color: #131313;
     }
+    .active{
+        color: #23BE0A;
+        border: 1px solid #23BE0A;
+        border-radius: 4px;
+    }
 }

@@ -1,13 +1,19 @@
 import React from "react";
+import { Link } from "react-router";
 
 const NavBar = () => {
   const links = (
     <div className="flex items-center gap-3.5">
-      <li className="cursor-pointer text-[#23BE0A] border border-[#23BE0A] rounded-[4px] px-5 py-2">
+      <Link to="/" className="text-[1.23rem] text-[#131313] px-5 py-2">
         Home
-      </li>
-      <li className="cursor-pointer">Listed Books</li>
-      <li className="cursor-pointer">Pages to Read</li>
+      </Link>
+
+      <Link to="/" className="text-[1.23rem] text-[#131313] px-5 py-2">
+        Listed Books
+      </Link>
+      <Link to="/" className="text-[1.23rem] text-[#131313] px-5 py-2">
+        Pages to Read
+      </Link>
     </div>
   );
   return (
