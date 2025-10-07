@@ -8,8 +8,8 @@ const NavBar = () => {
         Home
       </Link>
 
-      <Link to="/" className="text-[1.23rem] text-[#131313] px-5 py-2">
-        Listed Books
+      <Link to="/readList" className="text-[1.23rem] text-[#131313] px-5 py-2">
+        Read List
       </Link>
       <Link to="/" className="text-[1.23rem] text-[#131313] px-5 py-2">
         Pages to Read
